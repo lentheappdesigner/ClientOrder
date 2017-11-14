@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_login"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:paddingTop="16dp"
+android:paddingRight="16dp"
+android:paddingBottom="16dp"
+android:paddingLeft="16dp"
+android:background="@drawable/bg7"
+tools:context="com.example.len.clientorder.LoginActivity">
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/userEmail"
+    android:hint="   User Email"
+    android:layout_marginTop="150dp"
+    android:textColor="#000000"
+    android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+    />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/userPass"
+    android:hint="   ********"
+    android:textColor="#000000"
+    android:drawableLeft="@drawable/ic_lock_black_24dp"
+    />
+<CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Remember me"
+    android:padding="8dp"
+    android:textColor="#fff"
+    />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Log in"
+    android:onClick="signinButtonClicked"
+    android:background="@drawable/background"
+    android:textAllCaps="false"
+    android:layout_marginTop="24dp"
+    android:textColor="#f16f7d"
+    />
+
+
+</LinearLayout>
